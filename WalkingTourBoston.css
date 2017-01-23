@@ -55,6 +55,7 @@ table {
 }
 
 body {
+  position: relative;
   border-top: 4px solid #FFFFFF;
   border-left: 4px solid #FFFFFF;
   border-right: 4px solid #FFFFFF;    
@@ -84,15 +85,26 @@ body {
   font-size: 3.47vw;   
 }	
 
-.locationContainer {
-  
-}
-
 .subTitleText {
   color: #6C5353;
   font-weight: bold;
   font-size: 20px;  
 }	
 
+#navNorthEnd {background-color:#1e88e5;}
+
+#navDowntown {background-color: #673ab7;}
+
+#navBeaconHill {background-color: #ff9800;}
+
+#navCopleySquare {background-color: #00bcd4;}
+
+#navFenway {background-color: #009688;}
+
+#navJamaicaPlain {background-color: #1e88e5;}
+
+#navSection1 {background-color:#00bcd4;}
+
+#navSection2 {background-color:#009688;}
 
 }
