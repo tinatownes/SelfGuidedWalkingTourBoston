@@ -66,7 +66,7 @@ body {
   padding: 25px 0px 10px 0px !important;
  }
 
-.largeTitleMen {
+.titleLargeMen {
   height: 60px;
   width: 53px;
   display: block;
@@ -74,18 +74,18 @@ body {
   margin-right: auto;
 }
 
-.mainTitle { 
+.title { 
   color: #6C5353;
   font-family: 'Satisfy', cursive;
   font-size: 8.00vw;   
 }	
 
-.mainTitleIntro {
+.titleIntro {
   font-size: 5vmin !important; 
 }
 
 .locationInfoBox {
-  padding: 5% 10% 0% 10%;
+  padding: 5% 10% 5% 10%;
 }
 
 .locationTitleText {
@@ -94,27 +94,37 @@ body {
   font-size: 20px;  
 }
 
-.footerLeft {
-  border-left: 4px; 
-  border-color: #ffffff;
-  border-style:solid;  
+.footerContainer {
+  background-color: #9aec98;
 }
 
-.smallFooterMen {
+.footerLeftSmallMen {
   height: 35px;
   width: 33px;
   display: block;
+  margin-bottom: -10px;
 }
 
-.footerTitleText {
+.footerLeftTitle {
   font-family: 'Satisfy', cursive;
-  font-size:20px; 
-  color:#6C5353;  
-  font-weight:500;
+  font-size: 22px; 
+  color: #6C5353;  
+  font-weight: 500;
+  margin-bottom: 20px;
 }
 
-.paddingTopBottom {
-	margin-top: 50px;
+.footerLeftText {
+  margin: 17px 4px 4px 15px;
+  font-size: 15px; 
+  text-align: left;
+  line-height: 60%; 
+}
+
+.footerCenterBox {
+  margin: 107px 4px 4px 16px;
+  font-size: 15px; 
+  text-align: left;
+  line-height: 85%;
 }	
 
 }
