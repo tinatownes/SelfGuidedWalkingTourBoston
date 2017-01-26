@@ -23,69 +23,28 @@
   </head>
 
 
-<body data-spy="scroll" data-target=".navbar" data-offset="#">
+<body data-spy="scroll" data-target=".scrollspy" data-offset="50">
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <section class="container-fluid">
       <span class="navbar-header">  
-	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#locationsNavbar">
 	    <span class="icon-bar"></span>
 	    <span class="icon-bar"></span>
 	    <span class="icon-bar"></span>
 	    </button>
-	    <a class="navbar-brand" href="#">Tour of Literary Boston</a>
+	    <a class="navbar-brand " href="#">Tour of Literary Boston</a>
 	  </span>
 	
-	  <span class="collapse navbar-collapse" id="myNavbar">
-	    <ul class="nav navbar-nav">
-	      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">North End<span class="caret"></span></a>
-		    <ul class="dropdown-menu">
-		      <li><a href="#">Section 1</a></li>
-		      <li><a href="#">Section 2</a></li>
-			  <li><a href="#">Section 3</a></li>
-            </ul>
-          </li>
-			
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Downtown<span class="caret"></span></a>
-		    <ul class="dropdown-menu">
-		      <li><a href="#">Section 1</a></li>
-		      <li><a href="#">Section 2</a></li>
-			  <li><a href="#">Section 3</a></li>
-            </ul>
-          </li>		  
-
-		  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Beacon Hill<span class="caret"></span></a>
-		    <ul class="dropdown-menu">
-		      <li><a href="#">Section 1</a></li>
-		      <li><a href="#">Section 2</a></li>
-			  <li><a href="#">Section 3</a></li>
-            </ul>
-          </li>
-		  
-		  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Copley Square<span class="caret"></span></a>
-		    <ul class="dropdown-menu">
-		      <li><a href="#">Section 1</a></li>
-		      <li><a href="#">Section 2</a></li>
-			  <li><a href="#">Section 3</a></li>
-            </ul>
-          </li>
-		  
-		  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Fenway<span class="caret"></span></a>
-		    <ul class="dropdown-menu">
-		      <li><a href="#">Section 1</a></li>
-		      <li><a href="#">Section 2</a></li>
-			  <li><a href="#">Section 3</a></li>
-            </ul>
-          </li>
-		  
-		  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Jamaica Plain<span class="caret"></span></a>
-		    <ul class="dropdown-menu">
-		      <li><a href="#">Section 1</a></li>
-		      <li><a href="#">Section 2</a></li>
-			  <li><a href="#">Section 3</a></li>
-            </ul>
-          </li>
-        </ul>
+	  <span class="collapse navbar-collapse" id="locationsNavbar">
+	    <ul class="nav navbar-nav">    
+		  <li><a href="#navNorthEnd">North End</a></li>
+		  <li><a href="#navDowntown">Downtown</a></li>	
+		  <li><a href="#navBeaconHill">Beacon Hill</a>
+		  <li><a href="#navCopleySquare">Copley Square</a>
+		  <li><a href="#navFenway">Fenway</a>
+		  <li><a href="#navJamaicaPlain">Jamaica Plain</a>
+		</ul>
 		
           <form class="navbar-form navbar-right">
             <span class="form-group">
@@ -98,63 +57,81 @@
 	</section>
   </nav>	
   
-  <section><img class="img-responsive mainTitleImage" alt="Responsive image" src="images/boston_library.jpg"></section>
+  <section><img class="mainTitleImage img-responsive" alt="Responsive image" src="images/boston_library_title.png"></section>
   
   <section class="jumbotron"> 
     <article class="container">
 	  <img class="largeTitleMen" alt="#" src="images/colonial_men.png">
-	  <h1 class="mainTitleText">Self-Guided Walking Tour of Literary Boston</h1>
-        <p>The city and surrounding districts of Boston, Massachusetts possess a renown American literary history that beckons the curious soul. The intriguing landmarks and artifacts of celebrated women and men of letters are yours to discover. Don your walking shoes and together we'll explore!</p>
+	  <h1 class="text-center mainTitle">Self-Guided Walking Tour of Literary Boston</h1>
+        <p class="text-center mainTitleIntro">Put on your walking shoes! Let us explore the inspiring landmarks and artifacts celebrating the Boston area's rich American literary history.</p>
     </article>
   </section>	
   
-  <section class="row">
+  <section class="row locationInfoBox" id="navNorthEnd">
     <article class="col-md-3 ">
-	  <h3 class="subTitleText" >North End</h3>
+	  <h3 class="locationTitleText">North End</h3>
 	    <p>Beautiful Italian shops and restaurants proudly stand among the former residences of minister and prolific orator Cotton Mather and poet John Ciardi in Boston's North End district.</p>
 		<p><a class="btn btn-default" href="http://www.north-end-boston.com/History" role="button">Let's go! &raquo;</a></p>
 	</article>
   </section>
   
-  <section class="row">
+  <section class="row locationInfoBox" id="navDowntown">
     <article class="col-md-3">
-	  <h3 class="subTitleText">Downtown Boston</h3>
+	  <h3 class="locationTitleText">Downtown Boston</h3>
 	    <p>Boston city central is a treasure trove of literary beacons encompassing everything from the birthplaces of Benjamin Franklin and Edgar Allen Poe to Elizabeth Peabody's Book Shop.</p>
 		<p><a class="btn btn-default" href="http://bostonlitdistrict.org/map/" role="button">Let's go! &raquo;</a></p>
     </article>
   </section>		
   
-  <section class="row">
+  <section class="row locationInfoBox" id="navBeaconHill">
     <article class="col-md-3">
-	  <h3 class="subTitleText">Beacon Hill</h3>
+	  <h3 class="locationTitleText">Beacon Hill</h3>
 	    <p>With the brilliant golden dome of the Massachusetts State House gleaming above a well-manicured public garden, Beacon Hill experienced amazing historical acvities that inspired Robert Lowell's work.</p>
         <p><a class="btn btn-default" href="https://www.poetryfoundation.org/poems-and-poets/poets/detail/robert-lowell" role="button">Let's go! &raquo;</a></p>
     </article>
   </section>
 
-  <section class="row">
+  <section class="row locationInfoBox" id="navCopleySquare">
     <article class="col-md-3">
-	  <h3 class="subTitleText">Copley Square</h3>
+	  <h3 class="locationTitleText">Copley Square</h3>
 	    <p>Copley's star, the Boston Public Library, founded in 1848, is one of America's largest municipal public library systems. It houses over 23.7 million items.</p>
         <p><a class="btn btn-default" href="http://www.bpl.org/general/history.htm" role="button">Let's go! &raquo;</a></p>
     </article>
   </section>  
   
-    <section class="row">
+  <section class="row locationInfoBox" id="navFenway">
     <article class="col-md-3">
-	  <h3 class="subTitleText">Fenway</h3>
+	  <h3 class="locationTitleText">Fenway</h3>
 	    <p>Fenway Park is not only beloved to sports fans worldwide, but a critical element in American literary and journalistic cultures.</p>
         <p><a class="btn btn-default" href="http://www.fenwayparkwriters.org/" role="button">Let's go! &raquo;</a></p>
     </article>
   </section>
   
-  <section class="row">
+  <section class="row locationInfoBox" id="navJamaicaPlain">
     <article class="col-md-3">
-      <h3 class="subTitleText">Jamaica Plain</h3>
+      <h3 class="locationTitleText">Jamaica Plain</h3>
         <p>Among the elaborately carved stones in Jamaica's peaceful Forest Hills Cemetery, you'll find the graves of e.e. cummings, Anne Sexton, and Eugene O’Neil.</p>
       <p><a class="btn btn-default" href="http://www.notfortourists.com/LD.aspx/Boston/Landmarks/Forest-Hills-Cemetery" role="button">Let's go! &raquo;</a></p>
     </article>
   </section>	
+  
+  <section class="row">
+    <article class="col-md-4 col-sm-6 footerLeft">
+	  <img class="smallFooterMen" alt="#" src="images/colonial_men.png">
+	  <span class="text-center footerTitleText">Self-Guided Walking Tour of Literary Boston</span>
+		<p>Created by Tina C. Townes</p>
+		<p>Address</p>
+		<p>Phone</p>
+		<p>E-mail</p>
+		<p>Boston, Massachusetts, USA</p>
+		<p>2017</p>
+	</article>	
+		
+	<article class="col-md-2 col-sm6 paddingTopBottom>
+	        
+	</article>
+	
+  </section>
   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>

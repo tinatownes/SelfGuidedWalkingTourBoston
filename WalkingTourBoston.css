@@ -56,55 +56,65 @@ table {
 
 body {
   position: relative;
-  border-top: 4px solid #FFFFFF;
-  border-left: 4px solid #FFFFFF;
-  border-right: 4px solid #FFFFFF;    
-}
-
-.mainTitleImage {
-  height: 20px;  
+  border-width: 4px 4px 4px 4px; 
+  border-color: #FFFFFF;
+  border-style: solid;
 }
 
 .jumbotron {
   background-color: #9aec98 !important;
-  padding:
+  padding: 25px 0px 10px 0px !important;
  }
 
 .largeTitleMen {
   height: 60px;
-  width: 50px;
+  width: 53px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.mainTitleText { 
+.mainTitle { 
   color: #6C5353;
   font-family: 'Satisfy', cursive;
-  font-size: 50px; 
-  font-size: 3.47vw;   
+  font-size: 8.00vw;   
 }	
 
-.subTitleText {
+.mainTitleIntro {
+  font-size: 5vmin !important; 
+}
+
+.locationInfoBox {
+  padding: 5% 10% 0% 10%;
+}
+
+.locationTitleText {
   color: #6C5353;
   font-weight: bold;
   font-size: 20px;  
+}
+
+.footerLeft {
+  border-left: 4px; 
+  border-color: #ffffff;
+  border-style:solid;  
+}
+
+.smallFooterMen {
+  height: 35px;
+  width: 33px;
+  display: block;
+}
+
+.footerTitleText {
+  font-family: 'Satisfy', cursive;
+  font-size:20px; 
+  color:#6C5353;  
+  font-weight:500;
+}
+
+.paddingTopBottom {
+	margin-top: 50px;
 }	
-
-#navNorthEnd {background-color:#1e88e5;}
-
-#navDowntown {background-color: #673ab7;}
-
-#navBeaconHill {background-color: #ff9800;}
-
-#navCopleySquare {background-color: #00bcd4;}
-
-#navFenway {background-color: #009688;}
-
-#navJamaicaPlain {background-color: #1e88e5;}
-
-#navSection1 {background-color:#00bcd4;}
-
-#navSection2 {background-color:#009688;}
 
 }
