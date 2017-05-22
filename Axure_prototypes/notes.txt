@@ -1,0 +1,15 @@
+Mobile 
+
+Layout/colors/font inspired by crisp, clean Boston.gov mobile.
+
+Critical goal is providing information to a visitor or new resident of Boston.
+
+Colors subtly inspire patriotism, try not to overwhelm visitors with overt "Americanism".
+
+Google Font Roboto is fast, clean, easy to read, modern
+
+BostonbyFoot.org (sell tours, no self-guidance or additional resources).....WalkBoston.org (community action group).....bostonlitdistrict.org (poorly designed map/info, lack of location photos)
+
+
+ 
+ 
