@@ -8,4 +8,6 @@ Colors subtly inspire patriotism, try not to overwhelm visitors with overt "Amer
 
 Google Font Roboto is fast, clean, easy to read, modern
 
-BostonbyFoot.org (sell tours, no self-guidance or additional resources).....WalkBoston.org (community action group).....bostonlitdistrict.org (poorly designed map/info, lack of location photos)
+Sources of inspiration: BostonbyFoot.org (sell tours, no self-guidance or additional resources).....WalkBoston.org (community action group).....bostonlitdistrict.org (poorly designed map/info, lack of location photos)
+
+I chose to set location overview as the homepage because 
